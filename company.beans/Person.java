@@ -9,7 +9,7 @@ public class Person {
 
     public Person (String name, int age) throws InvalidAgeException {
         if (age < 0 || age > 125) {
-            throw new InvalidAgeExepction ("Invalid age: " + age);
+            throw new InvalidAgeException ("Invalid age: " + age);
         }
         this.age = age;
         this.name = name;
