@@ -1,6 +1,6 @@
 package company.beans;
 
-import compnay.exceptions.*;
+import company.exceptions.*;
 
 public class Person {
 
